@@ -1,0 +1,20 @@
+# Making the prompt a single line instead of two
+[line_break]
+disable = true
+
+[character]
+error_symbol = "[✖](bold red) "
+
+# Shows memory usage
+[memory_usage]
+format = "$symbol[${ram}( | ${swap})]($style) "
+threshold = 70
+style = "bold dimmed white"
+disabled = false
+
+# Shows time
+[time]
+time_format = "%T"
+format = "🕙 $time($style) "
+style = "bright-white"
+disabled = false
