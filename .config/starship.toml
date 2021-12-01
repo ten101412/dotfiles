@@ -5,6 +5,7 @@ disable = true
 [character]
 success_symbol = "[➜](bold green) "
 error_symbol = "[➜](bold red) "
+vicmd_symbol = "[❯](bold green)"
 # error_symbol = "[✖](bold red) "
 
 # Shows memory usage
